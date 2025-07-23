@@ -1,0 +1,71 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#content {
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  width: 550px;
+  height: 750px;
+  margin-top: 10px;
+  color: #333;
+  text-align: center;
+  margin-left: 5px;
+  margin-right:5px;
+  border-radius: 50px;
+}
+
+#qrcode {
+  background: #eef;
+  height: 550px;
+  margin-top:55px;
+  
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#qrcode canvas {
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+#qrcode-img {
+  width:300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#controls {
+  padding: 30px;
+  background: #eee;
+  border: 1px solid #ccc;
+  min-height: 830px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+h3 {
+  text-align: left;
+  color: #666;
+}
+
+.separator {
+  border-bottom: 1px dashed #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
